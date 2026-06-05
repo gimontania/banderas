@@ -1,1 +1,3 @@
 @import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));/*esto le dice a Tailwind que active todas las clases que empiecen con dark*/
