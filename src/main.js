@@ -1,4 +1,11 @@
 let banderas = document.querySelector("#banderas") //busco el elemento id=banderas
+const btnDarkMode = document.querySelector("#btnDarkMode");
+
+btnDarkMode.addEventListener("click",() => {
+    document.documentElement.classList.toggle("dark");
+});
+
+
 
 async function traerBanderas() {
     try {
